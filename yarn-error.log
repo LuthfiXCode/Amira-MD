@@ -1,0 +1,45 @@
+Arguments: 
+  /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/share/yarn/bin/yarn.js install
+
+PATH: 
+  /data/data/com.termux/files/usr/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  19.6.1
+
+Platform: 
+  android arm64
+
+Trace: 
+  Error: EACCES: permission denied, symlink '../../../../pino/bin.js' -> '/storage/emulated/0/Amira MD/node_modules/@adiwajshing/baileys/node_modules/.bin/pino'
+
+npm manifest: 
+  {
+    "name": "md-base",
+    "version": "1.0.0",
+    "description": 1,
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node index.js"
+    },
+    "author": "md",
+    "license": "ISC",  
+    "dependencies": {
+      "@adiwajshing/baileys": "^4.4.0",
+      "node-fetch": "2.6.1",
+      "cheerio": "^1.0.0-rc.12",
+  	"openai": "3.2.1",
+      "qrcode-terminal": "^0.12.0",
+      "fluent-ffmpeg": "^2.1.2"
+  }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
